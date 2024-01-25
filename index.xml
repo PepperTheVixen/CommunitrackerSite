@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communitracker</title>
+    <link>https://communitracker.com/</link>
+    <description>Recent content on Communitracker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="https://communitracker.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://communitracker.com/index-about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://communitracker.com/index-about/</guid>
+      <description>Communitracker is an easy-to-use, lightweight tool that makes tracking and managing community members across servers and platforms easy! Whether it&amp;rsquo;s keeping a handle on your members across multiple Discord servers or ensuring the safety of your members outside of Discord, Communitracker makes adding, viewing, and managing members from a single endpoint possible.</description>
+    </item>
+  </channel>
+</rss>
