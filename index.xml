@@ -9,10 +9,17 @@
     <atom:link href="https://communitracker.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://communitracker.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://communitracker.com/contact/</guid>
+      <description>Contact us To ensure Communitracker performs to its very best no matter what, we tailor each instance to your needs. Please use the contact form below to request a demo&#xA;Contact Form SUBMIT </description>
+    </item>
+    <item>
+      <title></title>
       <link>https://communitracker.com/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://communitracker.com/index-about/</guid>
-      <description>Communitracker is an easy-to-use, lightweight tool that makes tracking and managing community members across servers and platforms easy! Whether it&amp;rsquo;s keeping a handle on your members across multiple Discord servers or ensuring the safety of your members outside of Discord, Communitracker makes adding, viewing, and managing members from a single endpoint possible.</description>
+      <description>Welcome to Communitracker!&#xA;About Us Communitracker started as a small community project aimed at simplifying the process of tracking and managing community members. Today, it has evolved into a powerful tool that brings convenience and efficiency to community management.&#xA;Why Communitracker? Seamless Integration Communitracker seamlessly integrates with multiple Discord servers and platforms. Keep all your community members in check without the hassle of switching between different environments.&#xA;Centralized Management Our mod-friendly controls allow you to add, view, and manage members from a single endpoint.</description>
     </item>
   </channel>
 </rss>

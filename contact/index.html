@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-	<meta name="generator" content="Hugo 0.121.2">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -22,7 +21,7 @@
     <meta name="description" content="Cross-platform community management  made easy">
     <meta name="keywords" content='community, database, admin'>
 
-    <meta property="og:url" content="https://communitracker.com/">
+    <meta property="og:url" content="https://communitracker.com/contact/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Communitracker">
     <meta property="og:description" content="Cross-platform community management  made easy">
@@ -32,12 +31,12 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Communitracker">
     <meta name="twitter:description" content="Cross-platform community management  made easy">
-    <meta property="twitter:domain" content="https://communitracker.com/">
-    <meta property="twitter:url" content="https://communitracker.com/">
+    <meta property="twitter:domain" content="https://communitracker.com/contact/">
+    <meta property="twitter:url" content="https://communitracker.com/contact/">
     <meta name="twitter:image" content="https://communitracker.com/images/logo.png">
 
     
-    <link rel="canonical" href="https://communitracker.com/" />
+    <link rel="canonical" href="https://communitracker.com/contact/" />
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -122,64 +121,50 @@
     </nav>
 </header>
 <main id="content">
-<section class="home-about">
-	<div class="avatar">
-        
-        <img class=size-m src='/images/logo.png' alt="Communitracker logo" />
-        
-	</div>
-
-    <h1>Communitracker</h1>
-    
-        <h3>Cross-platform community management  made easy</h3>
     
 
-</section>
+    <div class="post container">
 
-<div class="flex-break"></div>
+    <div class="post-header-section">
+        <h1></h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <h1 id="contact-us">Contact us</h1>
+<p>To ensure Communitracker performs to its very best no matter what, we tailor each instance to your needs. Please use the contact form below to request a demo</p>
+<h2 id="contact-form">Contact Form</h2>
+
+
+<div id="submitContainer">
+<input type="text" id="emailInput" name="email"/><br>
+<input type="textarea" id="contactMessage"/><br>
+</div>
+<button id="contactSubmit" onclick="submit()">SUBMIT</button>
+<p id="output" role="alert"></p>
+<script>
+function submit() {
+    let output = document.getElementById("output");
+    let email = document.getElementById("emailInput");
+    let message = document.getElementById("contactMessage");
+    let submitContainer = document.getElementById("submitContainer");
+    let button = document.getElementById("contactSubmit");
+    if (email.value && message.value && (email.value.includes('@') && email.value.includes('.'))) {
+        submitContainer.style.display = "none";
+        button.disabled = true;
+        output.innerHTML = "Success! We will be in touch soon!";
+    } else if (!(email.value.includes('@') && email.value.includes('.'))) {
+        output.innerHTML = "Please enter a valid email address.";
+    } else {
+        output.innerHTML = "Please enter a valid email address and a message.";
+    }
+}
+    </script>
 
 
 
-
-<div class="markdown-content">
-    <p>Welcome to Communitracker!</p>
-<h2 id="about-us">About Us</h2>
-<p>Communitracker started as a small community project aimed at simplifying the process of tracking and managing community members. Today, it has evolved into a powerful tool that brings convenience and efficiency to community management.</p>
-<h2 id="why-communitracker">Why Communitracker?</h2>
-<h3 id="seamless-integration">Seamless Integration</h3>
-<p><img src="/images/users.png" alt="Communitracker Integration"></p>
-<p>Communitracker seamlessly integrates with multiple Discord servers and platforms. Keep all your community members in check without the hassle of switching between different environments.</p>
-<h3 id="centralized-management">Centralized Management</h3>
-<p><img src="/images/modCommands.png" alt="Communitracker Dashboard"></p>
-<p>Our mod-friendly controls allow you to add, view, and manage members from a single endpoint. Say goodbye to scattered information – Communitracker centralizes your community management tasks.</p>
-<h3 id="safety-beyond-discord">Safety Beyond Discord</h3>
-<p>Ensure the safety of your members not only within Discord but also across various platforms. Communitracker goes beyond boundaries to provide your moderators the ability to ensure everyone stays safe no matter where you operate.</p>
-<h2 id="how-it-works">How It Works</h2>
-<ol>
-<li>
-<p>Invite Communitracker to your server.
-Once tailored to your needs, simply add Communitracker to your primary Discord server with the provided invite link. Then invite it to other servers and services as needed.</p>
-</li>
-<li>
-<p>Allow members to join</p>
-<p><img src="/images/addMembers.png" alt="Add Members"></p>
-<p>Members can self-register or be added manually by moderators.</p>
-</li>
-<li>
-<p>Manage</p>
-<p><img src="modCommands.png" alt="moderator commands">
-View and manage all your community members in one place. Monitor interactions, and make informed decisions.</p>
-</li>
-<li>
-<p><strong>Safety Measures</strong></p>
-<p><img src="/images/ban.png" alt="Safety Checks"></p>
-<p>Utilize Communitracker&rsquo;s safety features to enhance the well-being of your community members. Set up alerts, notifications, and safety checks to maintain a secure environment.</p>
-</li>
-</ol>
-<h2 id="get-started">Get Started</h2>
-<p>Ready to experience the simplicity of community management with Communitracker? <a href="/contact">contact us</a> to begin your Communitracker Journey today!</p>
-<p><em>Communitracker - Empowering Communities, One Click at a Time.</em></p>
-
+        </p>
+    </div>
 </div>
 
 
